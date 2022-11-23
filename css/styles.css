@@ -1,0 +1,128 @@
+#title {
+  background-color: #ff4c68;
+}
+h1 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+.title {
+  font-family: ubuntu;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.title-image {
+  transform: rotate(25deg) translateX(95px);
+  width: 21%;
+  position: absolute;
+  right: 23%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    transform: rotate(0);
+    width: 80%;
+    position: static;
+  }
+}
+
+.download-button {
+  margin: 5% 3% 0 0;
+}
+
+#features {
+  padding: 7% 0 0;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  z-index: 1; /* optional */
+}
+.featureHead {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.featureP {
+  color: #8f8f8f;
+}
+
+feature {
+  color: #ef8172;
+  font-size: 4rem;
+  padding-bottom: 3%;
+}
+feature:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.tHead {
+  font-family: montserrat;
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+.testImage {
+  width: 10%;
+  border-radius: 100%;
+  margin-top: 1%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.pressImage {
+  width: 15%;
+  margin: 70px 20px 30px;
+}
+.buttonP {
+  width: 100%;
+}
+.h2Pricing {
+  padding-top: 6%;
+  font-family: montserrat;
+  font-weight: 600;
+  font-size: 2.8rem;
+}
+.cols {
+  padding: 1%;
+}
+
+#lastSection {
+  padding: 10% 0;
+  background-color: #ff4c66;
+}
+
+#lastHeading {
+  padding: 0 15% 3%;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.brandsLast {
+  padding: 5% 1% 0 1%;
+}
+
+.lastPara {
+  color: #8f8f8f;
+}
